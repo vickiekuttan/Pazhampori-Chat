@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex">
+  <title>Mysore chat has moved</title>
+  <script>
+    // Old address: vickiekuttan.github.io/Pazhampori-Chat/... -> mysorechat.netlify.app/...
+    // Keeps the rest of the address, including #invite=CODE.
+    (function () {
+      var rest = location.pathname.replace(/^\/Pazhampori-Chat\/?/i, '/');
+      location.replace('https://mysorechat.netlify.app' + rest + location.search + location.hash);
+    })();
+  </script>
+  <style>body { margin: 0; padding: 32px 16px; background: #150c24; color: #fff; font: 15px/1.6 monospace; } a { color: #9c72e3; }</style>
+</head>
+<body>
+  <p>Mysore chat has moved to <a href="https://mysorechat.netlify.app/">mysorechat.netlify.app</a>.</p>
+</body>
+</html>
